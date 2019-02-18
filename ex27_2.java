@@ -4,13 +4,11 @@ public class ex27_2 {
 	
 	static Scanner sc = new Scanner(System.in);
 	
-	static int N, col = 3;
+	static int N, number, min, diff, col = 3, o = Integer.MAX_VALUE;
 	static int data[][];	
 	static int rows_mins[];
 	
 	static long start, end;
-	
-	static int number, min, diff, o = Integer.MAX_VALUE;
 	
 	public static void main(String[] args) {		
 		N = sc.nextInt();
