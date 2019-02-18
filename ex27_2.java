@@ -6,8 +6,7 @@ public class ex27_2 {
 	
 	static int N, number, min, diff, col = 3, o = Integer.MAX_VALUE;
 	static int data[][];	
-	static int rows_mins[];
-	
+	static int rows_mins[];	
 	static long start, end;
 	
 	public static void main(String[] args) {		
